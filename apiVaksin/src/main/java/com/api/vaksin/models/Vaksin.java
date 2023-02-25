@@ -1,6 +1,6 @@
-package com.api.karyawan.models;
+package com.api.vaksin.models;
 
-public class Karyawan {
+public class Vaksin {
     
     private int idKaryawan;
     private String namaKaryawan;
@@ -8,10 +8,10 @@ public class Karyawan {
     private String posisiKaryawan;
     private String alamatKaryawan;
   
-    public Karyawan() {
+    public Vaksin() {
     }
 
-    public Karyawan(int idKaryawan, String namaKaryawan, String divisiKaryawan, String posisiKaryawan, String alamatKaryawan) {
+    public Vaksin(int idKaryawan, String namaKaryawan, String divisiKaryawan, String posisiKaryawan, String alamatKaryawan) {
         this.idKaryawan = idKaryawan;
         this.namaKaryawan = namaKaryawan;
         this.divisiKaryawan = divisiKaryawan;

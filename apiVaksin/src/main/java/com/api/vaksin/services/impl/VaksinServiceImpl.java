@@ -1,27 +1,27 @@
-package com.api.karyawan.services.impl;
+package com.api.vaksin.services.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.api.karyawan.models.Karyawan;
-import com.api.karyawan.repository.IKaryawanRepository;
-import com.api.karyawan.services.IKaryawanService;
+import com.api.vaksin.models.Vaksin;
+import com.api.vaksin.repository.IVaksinRepository;
+import com.api.vaksin.services.IVaksinService;
 
 @Service
-public class KaryawanServiceImpl implements IKaryawanService{
+public class VaksinServiceImpl implements IVaksinService{
 
     @Autowired
-    private IKaryawanRepository karyawanRepository; 
+    private IVaksinRepository karyawanRepository; 
     
 	@Override
-	public List<Karyawan> findAllKaryawan() { 
+	public List<Vaksin> findAllKaryawan() { 
 		return karyawanRepository.findAllKaryawan();
 	}
 
 	@Override
-	public Karyawan findKaryawanById(int id) { 
+	public Vaksin findKaryawanById(int id) { 
 		return karyawanRepository.findKaryawanById(id);
 	}
     

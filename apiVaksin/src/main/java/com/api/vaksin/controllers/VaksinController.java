@@ -1,7 +1,4 @@
-package com.api.karyawan.controllers;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.api.vaksin.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,21 +10,22 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.api.karyawan.models.Karyawan;
-import com.api.karyawan.services.IKaryawanService;
+import com.api.vaksin.models.Vaksin;
+import com.api.vaksin.services.IVaksinService;
 
 @RestController
 @RequestMapping("/api/vaksin") 
-public class KaryawanController {
+public class VaksinController {
 
-    private static final Logger logger = LoggerFactory.getLogger(KaryawanController.class);
+    private static final Logger logger = LoggerFactory.getLogger(VaksinController.class);
 
     @Autowired
-    private IKaryawanService karyawanServices; 
+    private IVaksinService karyawanServices; 
  
     @GetMapping("/trace/{idKaryawan}")
-    public ResponseEntity<Karyawan> getsTutorialsById(@PathVariable("idKaryawan") int id){
-    	Karyawan karyawan = karyawanServices.findKaryawanById(id);  
-        return new ResponseEntity<>(karyawan,HttpStatus.OK);  
+    public ResponseEntity<Vaksin> getsTutorialsById(@PathVariable("idKaryawan") int id){
+    	Vaksin karyawan = karyawanServices.findKaryawanById(id);  
+    	logger.info("Trace Vaksin");
+    	return new ResponseEntity<>(karyawan,HttpStatus.OK);  
     } 
 }

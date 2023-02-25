@@ -1,10 +1,10 @@
-package com.api.karyawan.repository;
+package com.api.vaksin.repository;
 
 import java.util.List;
+ 
+import com.api.vaksin.models.Vaksin;
 
-import com.api.karyawan.models.Karyawan;
-
-public interface IKaryawanRepository { 
-    public List<Karyawan> findAllKaryawan();
-    public Karyawan findKaryawanById(int id);
+public interface IVaksinRepository { 
+    public List<Vaksin> findAllKaryawan();
+    public Vaksin findKaryawanById(int id);
 }

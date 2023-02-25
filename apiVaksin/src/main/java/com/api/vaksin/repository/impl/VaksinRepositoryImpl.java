@@ -1,4 +1,4 @@
-package com.api.karyawan.repository.impl;
+package com.api.vaksin.repository.impl;
 
 import java.util.List;
 
@@ -8,25 +8,25 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.api.karyawan.models.Karyawan;
-import com.api.karyawan.repository.IKaryawanRepository;
+import com.api.vaksin.models.Vaksin;
+import com.api.vaksin.repository.IVaksinRepository;
 
 @Repository
-public class KaryawanRepositoryImpl implements IKaryawanRepository{
+public class VaksinRepositoryImpl implements IVaksinRepository{
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
  
 	@Override
-	public List<Karyawan> findAllKaryawan() {
-		return jdbcTemplate.query("SELECT * from tutorials", BeanPropertyRowMapper.newInstance(Karyawan.class));
+	public List<Vaksin> findAllKaryawan() {
+		return jdbcTemplate.query("SELECT * from tutorials", BeanPropertyRowMapper.newInstance(Vaksin.class));
 	}
 
 	@Override
-	public Karyawan findKaryawanById(int id) {
+	public Vaksin findKaryawanById(int id) {
 		try {
-			Karyawan karyawan = jdbcTemplate.queryForObject("SELECT * FROM tutorials WHERE id=?",
-	            BeanPropertyRowMapper.newInstance(Karyawan.class), id); 
+			Vaksin karyawan = jdbcTemplate.queryForObject("SELECT * FROM tutorials WHERE id=?",
+	            BeanPropertyRowMapper.newInstance(Vaksin.class), id); 
 	        return karyawan;
         } catch (IncorrectResultSizeDataAccessException e) {
             return null;
