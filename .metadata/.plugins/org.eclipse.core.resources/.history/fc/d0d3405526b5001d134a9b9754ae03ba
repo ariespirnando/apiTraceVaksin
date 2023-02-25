@@ -1,0 +1,11 @@
+package com.api.karyawan.services;
+
+import java.util.List;
+
+import com.api.karyawan.models.Karyawan;
+import com.java.domain.testing.demotest.models.Tutorial;
+
+public interface ITutorialService { 
+    public List<Karyawan> findAllKaryawan();
+    public Karyawan findKaryawanById(int id);
+}

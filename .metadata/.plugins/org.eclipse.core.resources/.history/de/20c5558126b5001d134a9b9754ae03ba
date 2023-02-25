@@ -1,0 +1,51 @@
+package com.api.karyawan.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.java.domain.testing.demotest.models.Tutorial;
+import com.java.domain.testing.demotest.repository.ITutorialRepository;
+import com.java.domain.testing.demotest.services.ITutorialService;
+
+@Service
+public class KaryawanServiceImpl implements ITutorialService{
+
+    @Autowired
+    private ITutorialRepository tutorialRepository;
+
+    @Override
+    public int saveTutorial(Tutorial data) { 
+        return tutorialRepository.saveTutorial(data);
+    }
+
+    @Override
+    public int updateTutorial(Tutorial data) { 
+        return tutorialRepository.updateTutorial(data);
+    }
+
+    @Override
+    public Tutorial findTutorialById(Long id) { 
+        return tutorialRepository.findTutorialById(id);
+    }
+
+    @Override
+    public int deleteTutorialById(Long id) { 
+        return tutorialRepository.deleteTutorialById(id);
+    }
+
+    @Override
+    public List<Tutorial> findAllTutorial() { 
+        return tutorialRepository.findAllTutorial();
+    }
+
+    @Override
+    public int bulkSaveTutorial(List<Tutorial> datas) {
+        for (Tutorial tutorial : datas) {
+            tutorialRepository.saveTutorial(tutorial);
+        } 
+        return 0;
+    }
+    
+}

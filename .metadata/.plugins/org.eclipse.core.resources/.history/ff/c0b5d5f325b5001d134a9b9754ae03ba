@@ -1,0 +1,56 @@
+package com.api.karyawan.repository.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.IncorrectResultSizeDataAccessException;
+
+import com.api.karyawan.repository.IKaryawanRepository;
+import com.java.domain.testing.demotest.models.Tutorial;
+import com.java.domain.testing.demotest.repository.ITutorialRepository;
+
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class KaryawanRepositoryImpl implements IKaryawanRepository{
+
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
+    @Override
+    public int saveTutorial(Tutorial data) {
+        return jdbcTemplate.update("INSERT INTO tutorials (title, description, author) VALUES(?,?,?)",
+        new Object[] { data.getTitle(), data.getDescription(), data.getAuthor() });
+    }
+
+    @Override
+    public int updateTutorial(Tutorial data) { 
+        return jdbcTemplate.update("UPDATE tutorials SET title=?, description=?, author=? WHERE id=?",
+            new Object[] { data.getTitle(), data.getDescription(), data.getAuthor(), data.getId() });
+    }
+
+    @Override
+    public Tutorial findTutorialById(Long id) {
+        try {
+        Tutorial tutorial = jdbcTemplate.queryForObject("SELECT * FROM tutorials WHERE id=?",
+            BeanPropertyRowMapper.newInstance(Tutorial.class), id);
+    
+        return tutorial;
+        } catch (IncorrectResultSizeDataAccessException e) {
+            return null;
+        }
+    }
+
+    @Override
+    public int deleteTutorialById(Long id) {
+        return jdbcTemplate.update("DELETE FROM tutorials WHERE id=?", id);
+    }
+
+    @Override
+    public List<Tutorial> findAllTutorial() {
+        return jdbcTemplate.query("SELECT * from tutorials", BeanPropertyRowMapper.newInstance(Tutorial.class));
+    }
+    
+}

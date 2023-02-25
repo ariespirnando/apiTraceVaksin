@@ -1,0 +1,989 @@
+!SESSION 2023-02-25 23:00:33.245 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ID
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-02-25 23:00:52.881
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-25 23:00:52.881
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b80b41d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54ef9698,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-25 23:00:59.798
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Aries Pirnando'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:01:20.378
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:01:22.773
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:39.860
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:39.860
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@15974f4e[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:39.861
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:39.963
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.040
+!MESSAGE Boot LS startup time from start to initialized: 4168ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.140
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.seMNsaRiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.176
+!MESSAGE subscribing to classpath changes: sts4.classpath.seMNsaRi isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.178
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.181
+!MESSAGE subsribers = {sts4.classpath.seMNsaRi=Send Classpath Notifications(102)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.181
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.182
+!MESSAGE project apiKaryawan ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.182
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.183
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.seMNsaRi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.183
+!MESSAGE Preparing classpath changed notification apiKaryawan
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.186
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.193
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.196
+!MESSAGE buffering callback sts4.classpath.seMNsaRi apiKaryawan false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.197
+!MESSAGE executing callback sts4.classpath.seMNsaRi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:01:44.238
+!MESSAGE executing callback sts4.classpath.seMNsaRi SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2023-02-25 23:02:08.416
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-25 23:02:22.173
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jface.text 4 0 2023-02-25 23:04:24.179
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "this.fields" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1279)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.buildTargetAnnotation(AnnotationBinding.java:175)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.addStandardAnnotations(AnnotationBinding.java:79)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.retrieveAnnotations(BinaryTypeBinding.java:1691)
+	at org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding.getAnnotations(ReferenceBinding.java:1052)
+	at org.eclipse.jdt.core.dom.TypeBinding.getAnnotations(TypeBinding.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getAnnotations(JavadocHover.java:1192)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.addAnnotations(JavadocHover.java:1149)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-25 23:04:58.337
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2023-02-25 23:05:50.423
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:397)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:153)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:212)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:163)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:119)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:441)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:227)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:113)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.doCheckFinalConditions(RenameTypeProcessor.java:554)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameCompilationUnitProcessor.doCheckFinalConditions(RenameCompilationUnitProcessor.java:359)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Root exception:
+java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.doCheckFinalConditions(RenameTypeProcessor.java:554)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameCompilationUnitProcessor.doCheckFinalConditions(RenameCompilationUnitProcessor.java:359)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-02-25 23:06:03.016
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:397)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.getNextPage(RenameTypeWizardInputPage.java:168)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.nextOrPreviewPressed(RefactoringWizardDialog2.java:493)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.access$2(RefactoringWizardDialog2.java:490)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2$3.widgetSelected(RefactoringWizardDialog2.java:730)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:212)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:163)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:119)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:441)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:227)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:113)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage$3.run(RenameTypeWizardInputPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Root exception:
+java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage$3.run(RenameTypeWizardInputPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2023-02-25 23:06:07.127
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:397)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.createChange(RefactoringWizard.java:662)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.computeUserInputSuccessorPage(RefactoringWizard.java:504)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.computeSuccessorPage(UserInputWizardPage.java:77)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.getNextPage(RenameTypeWizardInputPage.java:195)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.nextOrPreviewPressed(RefactoringWizardDialog2.java:493)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.access$2(RefactoringWizardDialog2.java:490)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2$3.widgetSelected(RefactoringWizardDialog2.java:730)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:212)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:163)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:119)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:441)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:227)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:113)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.doCheckFinalConditions(RenameTypeProcessor.java:554)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameCompilationUnitProcessor.doCheckFinalConditions(RenameCompilationUnitProcessor.java:359)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Root exception:
+java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.doCheckFinalConditions(RenameTypeProcessor.java:554)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameCompilationUnitProcessor.doCheckFinalConditions(RenameCompilationUnitProcessor.java:359)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-02-25 23:06:26.871
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:397)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.getNextPage(RenameTypeWizardInputPage.java:168)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.nextOrPreviewPressed(RefactoringWizardDialog2.java:493)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.access$2(RefactoringWizardDialog2.java:490)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2$3.widgetSelected(RefactoringWizardDialog2.java:730)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:212)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:163)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:119)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:441)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:227)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:113)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage$3.run(RenameTypeWizardInputPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Root exception:
+java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage$3.run(RenameTypeWizardInputPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2023-02-25 23:06:28.782
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:397)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.createChange(RefactoringWizard.java:662)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.computeUserInputSuccessorPage(RefactoringWizard.java:504)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.computeSuccessorPage(UserInputWizardPage.java:77)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.getNextPage(RenameTypeWizardInputPage.java:195)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.nextOrPreviewPressed(RefactoringWizardDialog2.java:493)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.access$2(RefactoringWizardDialog2.java:490)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2$3.widgetSelected(RefactoringWizardDialog2.java:730)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:212)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:163)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:119)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:441)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:227)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:113)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.doCheckFinalConditions(RenameTypeProcessor.java:554)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameCompilationUnitProcessor.doCheckFinalConditions(RenameCompilationUnitProcessor.java:359)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Root exception:
+java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.doCheckFinalConditions(RenameTypeProcessor.java:554)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameCompilationUnitProcessor.doCheckFinalConditions(RenameCompilationUnitProcessor.java:359)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:51)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-02-25 23:06:42.130
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:397)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.getNextPage(RenameTypeWizardInputPage.java:168)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.nextOrPreviewPressed(RefactoringWizardDialog2.java:493)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.access$2(RefactoringWizardDialog2.java:490)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2$3.widgetSelected(RefactoringWizardDialog2.java:730)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:212)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:163)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:119)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:441)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:227)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:113)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage$3.run(RenameTypeWizardInputPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Root exception:
+java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:147)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:134)
+	at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:626)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage$3.run(RenameTypeWizardInputPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-25 23:07:23.040
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-02-25 23:08:48.458
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [getsListTutorials() [in KaryawanController [in [Working copy] KaryawanController.java [in com.api.karyawan.controllers [in src/main/java [in apiKaryawan]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:614)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:662)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.lambda$0(SpringBootJavaHoverProvider.java:41)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-02-25 23:08:48.458
+!MESSAGE getsListTutorials() [in KaryawanController [in [Working copy] KaryawanController.java [in com.api.karyawan.controllers [in src/main/java [in apiKaryawan]]]]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:12:05.152
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:12:10.871
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:12:11.481
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:12:18.788
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:12:32.496
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-25 23:12:34.089
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2023-02-25 23:12:43.262
+!MESSAGE For input string: "H" under radix 16
+!STACK 0
+java.lang.NumberFormatException: For input string: "H" under radix 16
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.isJRE12Plus(ClasspathJrtWithReleaseOption.java:100)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.initialize(ClasspathJrtWithReleaseOption.java:141)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:76)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:147)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:164)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1373)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1515)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:97)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder$FindInSource.findMain(MainTypeFinder.java:203)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.internalGuessMainTypes(MainTypeFinder.java:128)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.guessMainTypes(MainTypeFinder.java:71)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.guessMainTypes(AbstractLaunchConfigurationsDashElement.java:286)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.chooseMainType(AbstractLaunchConfigurationsDashElement.java:274)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.getOrCreateLaunchConfig(AbstractLaunchConfigurationsDashElement.java:260)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.start(AbstractLaunchConfigurationsDashElement.java:246)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.restart(AbstractLaunchConfigurationsDashElement.java:230)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.restart(AbstractLaunchConfigurationsDashElement.java:218)
+	at org.springframework.ide.eclipse.boot.dash.views.BootDashActions$RunOrDebugStateAction$1.run(BootDashActions.java:294)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:12:49.183
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.seMNsaRi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:12:49.184
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.seMNsaRi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:12:49.184
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-25 23:12:49.185
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.seMNsaRi => OK

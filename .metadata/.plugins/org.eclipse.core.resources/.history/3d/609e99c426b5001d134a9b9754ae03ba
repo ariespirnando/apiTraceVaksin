@@ -1,0 +1,42 @@
+package com.api.karyawan.controllers;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.api.karyawan.services.IKaryawanService;
+import com.java.domain.testing.demotest.models.Tutorial;
+import com.java.domain.testing.demotest.services.ITutorialService;
+
+@RestController
+@RequestMapping("/api/karyawan") 
+public class KaryawanController {
+
+    private static final Logger logger = LoggerFactory.getLogger(KaryawanController.class);
+
+    @Autowired
+    private IKaryawanService karyawanServices; 
+
+    @GetMapping("/list")
+    public ResponseEntity<List<KaryawanController>> getsListKaryawan(){
+        List<Tutorial> tutorials = new ArrayList<Tutorial>();
+        List<Tutorial> dtTutorial = tutorialServices.findAllTutorial();
+        dtTutorial.forEach(tutorials::add); 
+        return new ResponseEntity<>(tutorials,HttpStatus.OK);  
+    }
+
+    @GetMapping("/detail/{id}")
+    public ResponseEntity<Tutorial> getsTutorialsById(@PathVariable("id") Long id){
+        Tutorial tutorial = tutorialServices.findTutorialById(id);  
+        return new ResponseEntity<>(tutorial,HttpStatus.OK);  
+    } 
+}

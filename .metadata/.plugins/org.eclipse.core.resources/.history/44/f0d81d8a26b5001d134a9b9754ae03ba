@@ -1,0 +1,66 @@
+package com.api.karyawan.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.api.karyawan.models.Karyawan;
+import com.api.karyawan.repository.IKaryawanRepository;
+import com.api.karyawan.services.IKaryawanService;
+import com.java.domain.testing.demotest.models.Tutorial;
+import com.java.domain.testing.demotest.repository.ITutorialRepository;
+import com.java.domain.testing.demotest.services.ITutorialService;
+
+@Service
+public class KaryawanServiceImpl implements IKaryawanService{
+
+    @Autowired
+    private IKaryawanRepository karyawanRepository;
+
+    @Override
+    public int saveTutorial(Tutorial data) { 
+        return tutorialRepository.saveTutorial(data);
+    }
+
+    @Override
+    public int updateTutorial(Tutorial data) { 
+        return tutorialRepository.updateTutorial(data);
+    }
+
+    @Override
+    public Tutorial findTutorialById(Long id) { 
+        return tutorialRepository.findTutorialById(id);
+    }
+
+    @Override
+    public int deleteTutorialById(Long id) { 
+        return tutorialRepository.deleteTutorialById(id);
+    }
+
+    @Override
+    public List<Tutorial> findAllTutorial() { 
+        return tutorialRepository.findAllTutorial();
+    }
+
+    @Override
+    public int bulkSaveTutorial(List<Tutorial> datas) {
+        for (Tutorial tutorial : datas) {
+            tutorialRepository.saveTutorial(tutorial);
+        } 
+        return 0;
+    }
+
+	@Override
+	public List<Karyawan> findAllKaryawan() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Karyawan findKaryawanById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+    
+}
