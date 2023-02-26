@@ -11,8 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.api.karyawan.models.Karyawan;
-import com.api.karyawan.models.Vaksin;
-import com.api.karyawan.models.VaksinRs;
+import com.api.karyawan.models.Vaksin; 
 import com.api.karyawan.repository.IKaryawanRepository;
 import com.api.karyawan.services.IKaryawanService;
 
