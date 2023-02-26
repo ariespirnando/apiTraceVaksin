@@ -1914,3 +1914,21 @@ java.lang.NumberFormatException: For input string: "H" under radix 16
 	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.restart(AbstractLaunchConfigurationsDashElement.java:218)
 	at org.springframework.ide.eclipse.boot.dash.views.BootDashActions$RunOrDebugStateAction$1.run(BootDashActions.java:294)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 12:01:25.674
+!MESSAGE Preparing classpath changed notification apiVaksin
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 12:01:25.687
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 12:01:25.729
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 12:01:25.733
+!MESSAGE buffering callback sts4.classpath.HsZGszuW apiVaksin false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 12:01:25.734
+!MESSAGE executing callback sts4.classpath.HsZGszuW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 12:01:25.955
+!MESSAGE executing callback sts4.classpath.HsZGszuW SUCCESS [done]
