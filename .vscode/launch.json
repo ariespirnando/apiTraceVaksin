@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiKaryawan<api-karyawan>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.api.karyawan.ApiKaryawan",
+            "projectName": "api-karyawan",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=62072 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=api-karyawan"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiVaksin<api-vaksin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.api.vaksin.ApiVaksin",
+            "projectName": "api-vaksin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

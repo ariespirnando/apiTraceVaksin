@@ -1,72 +1,39 @@
 package com.api.vaksin.models;
 
 public class Vaksin {
-    
-    private int idKaryawan;
-    private String namaKaryawan;
-    private String divisiKaryawan;
-    private String posisiKaryawan;
-    private String alamatKaryawan;
-  
+     
+    private String jenisVaksin;
+    private String nmVaksin;  
+
     public Vaksin() {
     }
 
-    public Vaksin(int idKaryawan, String namaKaryawan, String divisiKaryawan, String posisiKaryawan, String alamatKaryawan) {
-        this.idKaryawan = idKaryawan;
-        this.namaKaryawan = namaKaryawan;
-        this.divisiKaryawan = divisiKaryawan;
-        this.posisiKaryawan = posisiKaryawan;
-        this.alamatKaryawan = alamatKaryawan;
+    public Vaksin(String jenisVaksin, String nmVaksin) {
+        this.jenisVaksin = jenisVaksin;
+        this.nmVaksin = nmVaksin;
     }
 
-    public int getIdKaryawan() {
-        return this.idKaryawan;
+    public String getJenisVaksin() {
+        return this.jenisVaksin;
     }
 
-    public void setIdKaryawan(int idKaryawan) {
-        this.idKaryawan = idKaryawan;
+    public void setJenisVaksin(String jenisVaksin) {
+        this.jenisVaksin = jenisVaksin;
     }
 
-    public String getNamaKaryawan() {
-        return this.namaKaryawan;
+    public String getNmVaksin() {
+        return this.nmVaksin;
     }
 
-    public void setNamaKaryawan(String namaKaryawan) {
-        this.namaKaryawan = namaKaryawan;
-    }
+    public void setNmVaksin(String nmVaksin) {
+        this.nmVaksin = nmVaksin;
+    } 
 
-    public String getDivisiKaryawan() {
-        return this.divisiKaryawan;
-    }
-
-    public void setDivisiKaryawan(String divisiKaryawan) {
-        this.divisiKaryawan = divisiKaryawan;
-    }
-
-    public String getPosisiKaryawan() {
-        return this.posisiKaryawan;
-    }
-
-    public void setPosisiKaryawan(String posisiKaryawan) {
-        this.posisiKaryawan = posisiKaryawan;
-    }
-
-    public String getAlamatKaryawan() {
-        return this.alamatKaryawan;
-    }
-
-    public void setAlamatKaryawan(String alamatKaryawan) {
-        this.alamatKaryawan = alamatKaryawan;
-    }
- 
     @Override
     public String toString() {
         return "{" +
-            " idKaryawan='" + getIdKaryawan() + "'" +
-            ", namaKaryawan='" + getNamaKaryawan() + "'" +
-            ", divisiKaryawan='" + getDivisiKaryawan() + "'" +
-            ", posisiKaryawan='" + getPosisiKaryawan() + "'" +
-            ", alamatKaryawan='" + getAlamatKaryawan() + "'" +
+            " jenisVaksin='" + getJenisVaksin() + "'" +
+            ", nmVaksin='" + getNmVaksin() + "'" +
             "}";
     }
      

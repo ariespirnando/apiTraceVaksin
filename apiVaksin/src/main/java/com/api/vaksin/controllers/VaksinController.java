@@ -1,5 +1,8 @@
 package com.api.vaksin.controllers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,12 +23,14 @@ public class VaksinController {
     private static final Logger logger = LoggerFactory.getLogger(VaksinController.class);
 
     @Autowired
-    private IVaksinService karyawanServices; 
+    private IVaksinService vaksinServices; 
  
     @GetMapping("/trace/{idKaryawan}")
-    public ResponseEntity<Vaksin> getsTutorialsById(@PathVariable("idKaryawan") int id){
-    	Vaksin karyawan = karyawanServices.findKaryawanById(id);  
+    public ResponseEntity<List<Vaksin>> getVaksinByIDKaryawan(@PathVariable("idKaryawan") int id){  
+        List<Vaksin> vaksin = new ArrayList<Vaksin>();
+    	List<Vaksin> dtVaksin = vaksinServices.findVaksinByIdKaryawan(id);  
+        dtVaksin.forEach(vaksin::add); 
     	logger.info("Trace Vaksin");
-    	return new ResponseEntity<>(karyawan,HttpStatus.OK);  
+    	return new ResponseEntity<>(vaksin,HttpStatus.OK);  
     } 
 }

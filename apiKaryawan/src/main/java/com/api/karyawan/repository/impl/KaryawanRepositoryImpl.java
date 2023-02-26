@@ -19,13 +19,13 @@ public class KaryawanRepositoryImpl implements IKaryawanRepository{
  
 	@Override
 	public List<Karyawan> findAllKaryawan() {
-		return jdbcTemplate.query("SELECT * from tutorials", BeanPropertyRowMapper.newInstance(Karyawan.class));
+		return jdbcTemplate.query("SELECT * FROM karyawan", BeanPropertyRowMapper.newInstance(Karyawan.class));
 	}
 
 	@Override
 	public Karyawan findKaryawanById(int id) {
 		try {
-			Karyawan karyawan = jdbcTemplate.queryForObject("SELECT * FROM tutorials WHERE id=?",
+			Karyawan karyawan = jdbcTemplate.queryForObject("SELECT * FROM karyawan WHERE idKaryawan=?",
 	            BeanPropertyRowMapper.newInstance(Karyawan.class), id); 
 	        return karyawan;
         } catch (IncorrectResultSizeDataAccessException e) {

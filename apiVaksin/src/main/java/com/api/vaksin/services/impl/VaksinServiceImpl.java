@@ -13,16 +13,11 @@ import com.api.vaksin.services.IVaksinService;
 public class VaksinServiceImpl implements IVaksinService{
 
     @Autowired
-    private IVaksinRepository karyawanRepository; 
-    
+    private IVaksinRepository vaksinRepository; 
+     
 	@Override
-	public List<Vaksin> findAllKaryawan() { 
-		return karyawanRepository.findAllKaryawan();
-	}
-
-	@Override
-	public Vaksin findKaryawanById(int id) { 
-		return karyawanRepository.findKaryawanById(id);
+	public List<Vaksin> findVaksinByIdKaryawan(int id) { 
+		return vaksinRepository.findVaksinByIdKaryawan(id);
 	}
     
 }

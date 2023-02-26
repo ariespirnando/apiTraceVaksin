@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.api.vaksin</groupId>
-	<artifactId>api-karyawan</artifactId>
+	<artifactId>api-vaksin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api-karyawan</name>
-	<description>api-karyawan</description>
+	<name>api-vaksin</name>
+	<description>api-vaksin</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

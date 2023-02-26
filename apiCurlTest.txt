@@ -1,0 +1,15 @@
+curl --request GET \
+  --url http://localhost:8881/api/karyawan/list \
+  --header 'Content-Type: application/json' \
+  --cookie JSESSIONID=79C3F33CF21E57A9C10AAA87BF1EA363
+
+
+HttpResponse<String> response = Unirest.get("http://localhost:8881/api/karyawan/detail/2")
+  .header("cookie", "JSESSIONID=79C3F33CF21E57A9C10AAA87BF1EA363")
+  .header("Content-Type", "application/json")
+  .asString();
+
+HttpResponse<String> response = Unirest.get("http://localhost:8882/api/vaksin/trace/1")
+  .header("cookie", "JSESSIONID=79C3F33CF21E57A9C10AAA87BF1EA363")
+  .header("Content-Type", "application/json")
+  .asString();

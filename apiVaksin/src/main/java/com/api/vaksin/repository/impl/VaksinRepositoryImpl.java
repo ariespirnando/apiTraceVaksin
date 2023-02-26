@@ -16,21 +16,11 @@ public class VaksinRepositoryImpl implements IVaksinRepository{
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
- 
+  
 	@Override
-	public List<Vaksin> findAllKaryawan() {
-		return jdbcTemplate.query("SELECT * from tutorials", BeanPropertyRowMapper.newInstance(Vaksin.class));
-	}
-
-	@Override
-	public Vaksin findKaryawanById(int id) {
-		try {
-			Vaksin karyawan = jdbcTemplate.queryForObject("SELECT * FROM tutorials WHERE id=?",
-	            BeanPropertyRowMapper.newInstance(Vaksin.class), id); 
-	        return karyawan;
-        } catch (IncorrectResultSizeDataAccessException e) {
-            return null;
-        }
+	public List<Vaksin> findVaksinByIdKaryawan(int id) {
+		return jdbcTemplate.query("SELECT v.jenisVaksin, GROUP_CONCAT(vd.namaVaksin ORDER BY vd.idVaksinDetail SEPARATOR '|') AS nmVaksin  FROM vaksinkaryawan vk JOIN vaksindetail vd ON vk.idVaksinDetail = vd.idVaksinDetail JOIN vaksin v ON v.idVaksin = vd.idVaksin WHERE vk.idKaryawan = ? GROUP BY v.jenisVaksin", 
+				BeanPropertyRowMapper.newInstance(Vaksin.class), id); 
 	}
     
 }
