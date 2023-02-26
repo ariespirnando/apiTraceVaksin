@@ -1,6 +1,8 @@
 package com.api.vaksin.services.impl;
 
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,7 +19,16 @@ public class VaksinServiceImpl implements IVaksinService{
      
 	@Override
 	public List<Vaksin> findVaksinByIdKaryawan(int id) { 
-		return vaksinRepository.findVaksinByIdKaryawan(id);
+		List<Vaksin> vaksins = vaksinRepository.findVaksinByIdKaryawan(id);
+		
+		for (Vaksin v : vaksins) { 
+			List<String> convertedNmVaksinToList = Stream.of(v.getNmVaksin().split("\\|")) 
+				.collect(Collectors.toList());
+			v.setNmVaksins(convertedNmVaksinToList);
+		}
+ 
+		
+		return vaksins;
 	}
     
 }
